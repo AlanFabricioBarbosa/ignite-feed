@@ -1,8 +1,8 @@
 import { Header } from './Components/Header'
-import { Post } from './Post'
+import { Post } from './Components/Post'
+import { Sidebar } from './Components/Sidebar'
 import './global.css'
 import styles from './App.module.css'
-import { Sidebar } from './Components/Sidebar'
 
 function App() {
 
@@ -15,14 +15,8 @@ function App() {
         </aside>
         <main>
         <section>
-        <Post 
-          author="Alan Fabrício" 
-          content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum similique alias dolor nihil voluptatem eveniet, pariatur dignissimos tempore magnam consequuntur adipisci ut minus corrupti hic doloribus exercitationem, quis explicabo cum."
-        />
-        <Post
-          author="Mando"
-          content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum similique alias dolor nihil voluptatem eveniet, pariatur dignissimos tempore magnam consequuntur adipisci ut minus corrupti hic doloribus exercitationem, quis explicabo cum."
-        />
+        <Post/>
+        <Post/>
       </section>
         </main>
       </section>
